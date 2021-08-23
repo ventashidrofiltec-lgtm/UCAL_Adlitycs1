@@ -11,22 +11,43 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
-   
+    line-height: 1.5;  
   }
 
   .cover{
-      z-index: -1;
-      overflow: hidden;
-      margin: 0;
-      width: fit-content;
-      height: 100vh;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    transition: all .1s ease-in-out;
+    background-image: url('../img/cover.jpg');
   }
 
+    .cover-content{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        background-color:rgba(0, 22, 40, .4);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
 
-      
+    .cover-content h1,h3{
+        overflow-y: hidden;
+    }
 
-
-
-        
-
+.sector{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    transition: all .1s ease-in-out;
+    background-image: url('../img/cover.jpg');
+    }
