@@ -1,6 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T8KXM49');</script>
+    <!-- End Google Tag Manager -->
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Aurelio Denegri Chugnas | Ayudo a Empresas y Emprendedores a impulsar sus negocios.</title>
+        <meta name="keywords"
+        content="Marketing Digital, Emprendimiendo, Desarrollo Personal, Tecnología, Enseñanza Superior, Mentoring">
+        <meta name="description" content="Hola, me especializo en marketing digital y soy un autodidacta entusiasta,
+        me encantan los temas relacionados a emprendimiento, desarrollo personal
+        y tecnología.">
+        <meta name="tittle" content="Aurelio Denegri Chugnas | Ayudo a Empresas y Emprendedores a impulsar sus negocios.">
+        <meta name="robots" content="Index, Follow">
+
+ 	<!-- Pinterest -->
+	<meta name="p:domain_verify" content="8d5eb297882ef7641dbb1ad12401b4cb"/>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +35,19 @@
         <!--BOOTRAP CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
+        <!--ANIMATE.CSS WOW JS-->
+        <link rel="stylesheet" href="css/animate.css">
+
+        <!--FONT AWESOME-->
+        <script src="https://kit.fontawesome.com/1b571a8320.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T8KXM49"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <section id="portada" class="cover">
         <div class="cover-content">
            <div class="">
@@ -24,7 +59,7 @@
 
     <section id="bio" class="sector-w">
         <div class="container perfil">
-            <div class="row">
+            <div class="row wow animated fadeInUp">
                 <h1>Esto es un t`itulo</h1>
                     <div class="col foto">
                         <img src="img/mi foto.png" alt="">
@@ -41,7 +76,7 @@
     </section>
     <section class="sector-b">
         <div class="container content">
-            <div class="row">
+            <div class="row wow animated fadeInUp">
                 <h1>Esto es un t`itulo</h1>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
@@ -49,7 +84,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <a href="#" class="button">Go somewhere</a>
                         </div>
                       </div>
                 </div>
@@ -60,7 +95,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <a href="#" class="button">Go somewhere</a>
                         </div>
                       </div>
                 </div>
@@ -71,7 +106,7 @@
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <a href="#" class="button">Go somewhere</a>
                         </div>
                       </div>
                 </div>
@@ -81,7 +116,7 @@
     </section>
     <section class="sector-w">
         <div class="container jobs">
-            <div class="row">
+            <div class="row wow animated fadeInUp">
                 <h1>Esto es un encabezado</h1>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
@@ -119,24 +154,56 @@
 
     <section class="sector-b">
         <div class="container contact">
-            <div class="row">
+            <div class="row wow animated fadeInUp">
                 <h1>Contactame</h1>
                 <div class="col form">
-                    
+                    <div id="contacto" class="row">
+                        <div class="col wow animated slideInLeft">
+                            <form id='demo-form' class="form " method="post" action="mail.php" onsubmit="return validar();">
+                                <input id="Name" type="text" name="first_name" class="form-control" placeholder="Nombre*" required>
+                
+                                <input id="Email" type="email" name="email" class="form-control" placeholder="Email*" required>
+                
+                                <!--<input id="Phone" type="tel" name="phone" class="form-control" placeholder="Teléfono" maxlength="9" onkeypress="return justNumbers(event);"><br>-->
+                                    <input id="Asunto" type="asunto" name="asunto" class="form-control" placeholder="Asunto*" required>
+                                    <textarea id="Message" name="message" rows="3" cols="40" class="form-control" placeholder="Mensaje*" required></textarea>
+                                    <p style="font-size: 0.8rem; text-align: center;color: #fff;">*Campos requeridos</p>
+                                <div class="terms">
+                                    <input id="terms" type="checkbox" name="check" required> Acepto recibir noticias y novedades de www.aureliodenegri.com.
+                                </div>
+                                <div class="g-recaptcha" data-sitekey="6LeXHCEcAAAAAFiJEm6o2U2gMSo9NNl0DdxSPBz7"></div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!--FOOTER-->
+        <a class="footer" href="https://www.lapaltamarketing.com/">
+            <p class="copyright">
+                - Diseñado por Agencia La Palta Marketing y Publicidad -<br />
+                &copy;Todos los derechos reservados
+            </p>
+        </a>
     </section>
+
+            <!--BACK TO TOP BUTTON-->
+            <a href="#" class="top"><i class="fas fa-angle-up"></i></a>
 </body>
+
+         <!--JS FOLDER-->
+         <script src="js/main.js"></script>
+         <script src="js/jquery.js"></script>
+
         <!--TYPED.JS-->
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <!--CAPTCHA-->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
         <!--BOOSTRAP JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
-        <!--FONT AWESOME ICONS-->
-        <script src="https://kit.fontawesome.com/1b571a8320.js" crossorigin="anonymous"></script>
-
-        <!--JQUERY 3.6.0 CORE SLIM VERSION-->
-        <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
-</html>
+        <!--JQUERY 3.6.0 UNCOMPRESS VERSION-->
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>

@@ -8,15 +8,13 @@ highliter:
 */
 
 /*GENERAL*/
-*{
-    overflow-x: hidden;
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    animation: ease-in-out 1s;
-}
+  }
 
 body {
     margin: 0;
@@ -72,6 +70,7 @@ body {
         margin-bottom: 3rem;
         text-align: center;
         }
+    
 
 
 /*COVER*/
@@ -100,6 +99,19 @@ body {
     }
 
 
+/*CONTENT*/
+
+.button{
+    background-color:#0C4675;
+    border-color: #0C4675;
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
 /*JOBS*/
 
 .centrado{
@@ -107,3 +119,80 @@ body {
     margin-top: 3rem;
 }
 
+/*CONTACT*/
+
+
+        form{
+            max-width: 80%;
+            align-items: center;
+            margin: auto;
+        }
+
+        .form-control{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+
+        .terms{
+            color: #fff;
+            margin-bottom: 1rem;
+            padding: none;
+            text-align: center;
+        }
+
+        .g-recaptcha div{
+            overflow: hidden;
+            margin: auto;
+            margin-bottom: 1.5rem;
+        }
+
+/*FOOTER*/
+
+  
+  /*footer*/
+  .footer {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+  }
+
+  .footer :hover {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .footer p{
+    margin-bottom: 0;
+    padding-bottom: none;
+    font-size: .75rem;
+    text-decoration: none;
+  }
+
+  
+  /*TO TOP BUTTON*/
+  .top {
+    display: none;
+    bottom: 2.5rem;
+    right: 0;
+    background: #0C4675;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 2rem;
+    border-radius: 50%;
+    position: fixed;
+    line-height: 1rem;
+    margin: 1.5rem;
+    z-index: 3;
+    overflow: hidden;
+  }
+  
+  .top:hover {
+    background: #fff;
+    color: #001628;
+    font-size: 2rem;
+  }
+  
+  .top2 {
+    display: none;
+  }
