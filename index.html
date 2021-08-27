@@ -41,6 +41,10 @@
         <!--FONT AWESOME-->
         <script src="https://kit.fontawesome.com/1b571a8320.js" crossorigin="anonymous"></script>
 
+        <!--ANIMATE ON SCREEN CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -48,21 +52,26 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    <!-- COVER -->
     <section id="portada" class="cover">
         <div class="cover-content">
-           <div class="">
+           <div class="wow animated fadeInUp">
                 <h1>Aurelio Denegri Chugnas</h1>
-                <h3 class="typed">Soy Administrador, Marketero, Emprendedor, Autodidacta</h3>
+                <h3 class="">Soy 
+                    <span class="type" data-typed-items=""></span>
+                    <span class=""  aria-hidden="true">|</span>
+                </h3>
             </div>
         </div>
     </section>
 
+    <!-- ABOUT -->
     <section id="bio" class="sector-w">
         <div class="container perfil">
-            <div class="row wow animated fadeInUp">
+            <div class="row" data-aos="fade-up">
                 <h1>Esto es un t`itulo</h1>
-                    <div class="col foto">
-                        <img src="img/mi foto.png" alt="">
+                    <div class="col">
+                        <img  class="foto" src="img/mi foto.png" alt="Aurelio Denegri Chugnas">
                     </div>
                     <div class="descripcion col">
                         <h1>Mi Bio</h1>
@@ -74,13 +83,120 @@
             </div>
         </div>
     </section>
+
     <section class="sector-b">
-        <div class="container content">
-            <div class="row wow animated fadeInUp">
+        <div class="container">
+            <div class="row" data-aos="fade-up">
                 <h1>Esto es un t`itulo</h1>
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/tarjeta.png" class="card-img-top" alt="...">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+
+                        </div>
+                        <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <img src="img/slider 1.jpg" class="d-block w-100 " alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider 2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider 3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider 4.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider 5.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider 6.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider 7.jpg" class="d-block w-100 tall" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider 8.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider 9.jpg" class="d-block w-100 tall" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider 10.jpg" class="d-block w-100 tall" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTENT 
+    <section class="sector-b">
+        <div class="container content" data-aos="fade-up">
+            <div class="row ">
+                <h1>Esto es un t`itulo</h1>
+                <div class="col">
+                    <div class="card" >
+                        <img src="img/youtube_logo.svg" class="card-img-top svg_pic" alt="youtube logo">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -90,8 +206,8 @@
                 </div>
     
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/tarjeta.png" class="card-img-top" alt="...">
+                    <div class="card">
+                        <img src="img/wordpress_logo.svg" class="card-img-top svg_pic" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -101,8 +217,8 @@
                 </div>
     
                 <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/tarjeta.png" class="card-img-top" alt="...">
+                    <div class="card" >
+                        <img src="img/spotify_logo.svg" class="card-img-top svg_pic" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -113,14 +229,16 @@
     
             </div>
         </div>
-    </section>
+    </section>-->
+
+    <!-- JOBS-->
     <section class="sector-w">
-        <div class="container jobs">
-            <div class="row wow animated fadeInUp">
+        <div class="container jobs" data-aos="fade-up">
+            <div class="row">
                 <h1>Esto es un encabezado</h1>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
-                        <img src="img/tarjeta.png" class="card-img-top" alt="...">
+                        <img src="img/la_palta.png" class="card-img-top" alt="...">
                         <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -129,7 +247,7 @@
 
                 <div class="col">
                     <div class="card" style="width: 18rem;">
-                        <img src="img/tarjeta.png" class="card-img-top" alt="...">
+                        <img src="img/makerlab.png" class="card-img-top" alt="...">
                         <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -138,7 +256,7 @@
 
                 <div class="col">
                     <div class="card" style="width: 18rem;">
-                        <img src="img/tarjeta.png" class="card-img-top" alt="...">
+                        <img src="img/upc.png" class="card-img-top" alt="...">
                         <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -152,13 +270,15 @@
         </div>
     </section>
 
+
+    <!-- CONTACT -->
     <section class="sector-b">
-        <div class="container contact">
-            <div class="row wow animated fadeInUp">
+        <div class="container contact" data-aos="fade-up">
+            <div class="row">
                 <h1>Contactame</h1>
                 <div class="col form">
                     <div id="contacto" class="row">
-                        <div class="col wow animated slideInLeft">
+                        <div class="col">
                             <form id='demo-form' class="form " method="post" action="mail.php" onsubmit="return validar();">
                                 <input id="Name" type="text" name="first_name" class="form-control" placeholder="Nombre*" required>
                 
@@ -167,11 +287,12 @@
                                 <!--<input id="Phone" type="tel" name="phone" class="form-control" placeholder="Teléfono" maxlength="9" onkeypress="return justNumbers(event);"><br>-->
                                     <input id="Asunto" type="asunto" name="asunto" class="form-control" placeholder="Asunto*" required>
                                     <textarea id="Message" name="message" rows="3" cols="40" class="form-control" placeholder="Mensaje*" required></textarea>
+                                    <div class="text-center enviar"><a href="#" class="button ">Enviar</a></div>
                                     <p style="font-size: 0.8rem; text-align: center;color: #fff;">*Campos requeridos</p>
                                 <div class="terms">
                                     <input id="terms" type="checkbox" name="check" required> Acepto recibir noticias y novedades de www.aureliodenegri.com.
                                 </div>
-                                <div class="g-recaptcha" data-sitekey="6LeXHCEcAAAAAFiJEm6o2U2gMSo9NNl0DdxSPBz7"></div>
+
                             </form>
                         </div>
                     </div>
@@ -190,6 +311,17 @@
 
             <!--BACK TO TOP BUTTON-->
             <a href="#" class="top"><i class="fas fa-angle-up"></i></a>
+
+            <!--ANIMATE ON SCREEN JS-->
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init({
+                  //GLOBAL SETTINGS//
+                  offset:400,
+                  duration: 1000,
+              });
+            </script>
+          
 </body>
 
          <!--JS FOLDER-->
@@ -197,7 +329,7 @@
          <script src="js/jquery.js"></script>
 
         <!--TYPED.JS-->
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="js/typed.js-master/lib/typed.js"></script>
 
         <!--CAPTCHA-->
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>

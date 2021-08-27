@@ -71,7 +71,12 @@ body {
         text-align: center;
         }
     
-
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  }
 
 /*COVER*/
 
@@ -99,7 +104,46 @@ body {
     }
 
 
+/*ABOUT*/
+.foto{
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  float: right;
+  margin: 0 3rem;
+
+}
+
+
+
+/*EVENTS*/
+.carousel-inner{
+  height: auto;
+  padding: auto;
+  align-content: center;
+}
+
+  .carousel-item img{
+    max-width: 55%;
+    margin: auto;
+  }
+
+  .carousel-item img.tall{
+      max-width: 40%;
+      
+    }
+
 /*CONTENT*/
+.card{
+  width: 18rem;
+}
+
+  .card img {
+    max-width: auto;
+    padding:1.5rem 3rem 1rem;
+    align-items: center;
+    }
 
 .button{
     background-color:#0C4675;
@@ -110,7 +154,19 @@ body {
     color: #fff;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+    font-weight: bold;
+    min-width: 15rem;
 }
+
+.button:hover{
+  background-color:#fff;
+  border-color: #0C4675;
+  text-decoration: none;
+  color: #0C4675;
+  font-weight: bold;
+
+}
+
 
 /*JOBS*/
 
@@ -121,30 +177,27 @@ body {
 
 /*CONTACT*/
 
+  form{
+    max-width: 70%;
+    align-items: center;
+    margin: auto;
+    }
 
-        form{
-            max-width: 80%;
-            align-items: center;
-            margin: auto;
+    .form-control{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      }
+
+      .terms{
+        color: #fff;
+        margin-bottom: 1rem;
+        padding: none;
+        text-align: center;
         }
 
-        .form-control{
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
 
-
-        .terms{
-            color: #fff;
-            margin-bottom: 1rem;
-            padding: none;
-            text-align: center;
-        }
-
-        .g-recaptcha div{
-            overflow: hidden;
-            margin: auto;
-            margin-bottom: 1.5rem;
+        .enviar{
+          margin: 1.5rem 0 1rem;
         }
 
 /*FOOTER*/
@@ -163,10 +216,11 @@ body {
   }
 
   .footer p{
-    margin-bottom: 0;
+    margin-top: 2rem;
     padding-bottom: none;
     font-size: .75rem;
     text-decoration: none;
+    background: #001628 
   }
 
   
