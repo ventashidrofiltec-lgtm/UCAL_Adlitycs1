@@ -57,10 +57,49 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <!--BACK TO TOP BUTTON-->
-    <a href="#" class="scrollTop"><i class="fas fa-chevron-up"></i></a>
+    <a href="#" class="scrollTop"><i class="fas fa-chevron-up icons"></i></a>
     
+<!--NAVBAR-->
+<header id="header" class="d-flex flex-colum justify-content-center">
+    <nav id="navbar" class="navbar nav-menu ">
+        <ul>
+            <li>
+                <a href="#portada"class="nav-link scrollto icons-menu">
+                    <i class="fas fa-home"></i>
+                    <span class="menu-text">Inicio</span> 
+                </a>
+            </li>
+            <li>
+                <a href="#bio"class="nav-link scrollto icons-menu">
+                    <i class="fas fa-user"></i>
+                    <span>Conóceme</span>
+                </a>
+            </li>
+            <li>
+                <a href="#events" class="nav-link scrollto icons-menu">
+                    <i class="far fa-calendar-alt"></i>
+                    <span>Eventos</span>
+                </a>
+            </li>
+            <li>
+                <a href="#jobs"class="nav-link scrollto icons-menu">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Trabajo en</span>
+                </a>
+            </li>
+            <li>
+                <a href="#contact"class="nav-link scrollto icons-menu">
+                    <i class="fas fa-envelope"></i>
+                    <span>Escríbeme</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
     <!-- COVER -->
     <section id="portada" class="cover">
+
         <div class="cover-content">
            <div class="wow animated fadeInUp">
                 <h1 >Aurelio Denegri Chugnas</h1>
@@ -122,8 +161,8 @@
     </section>
 
     <!-- ABOUT -->
-    <section id="bio" class="sector-w">
-        <div class="container perfil">
+    <section  class="sector-w">
+        <div id="bio" class="container perfil">
             <div class="row" data-aos="fade-up">
                 <h1>¿Qué me interesa?</h1>
                     <div class="col">
@@ -144,7 +183,7 @@
     </section>
 
     <section class="sector-w">
-        <div class="container">
+        <div id="events"class="container">
             <div class="row" data-aos="fade-up">
                 <h1>Me gusta asistir a Eventos como...</h1>
                 <div class="col">
@@ -292,7 +331,7 @@
 
     <!-- JOBS-->
     <section class="sector-w">
-        <div class="container jobs" data-aos="fade-up">
+        <div id="jobs"class="container jobs" data-aos="fade-up">
             <div class="row ">
                 <h1>¿A qué me dedico?</h1>
                 <div class="col">
@@ -342,8 +381,8 @@
 
 
     <!-- CONTACT -->
-    <section class="sector-w">
-        <div class="container contact" data-aos="fade-up">
+    <section id="contact" class="sector-w">
+        <div  class="container contact" data-aos="fade-up">
             <div class="row">
                 <h1>Escríbeme</h1>
                 <div class="col form">
@@ -467,8 +506,6 @@
       </footer>
   
 
-  
-
             <!--BACK TO TOP BUTTON JS-->
             <script type="text/javascript">
                 window.addEventListener('scroll',function(){
@@ -476,6 +513,7 @@
                     scroll.classList.toggle("active", window.scrollY >200)
             })
             </script>
+
             <!--ANIMATE ON SCREEN JS-->
             <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
             <script>
