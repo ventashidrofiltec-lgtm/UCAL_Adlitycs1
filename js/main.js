@@ -1,136 +1,82 @@
-/*top buttons mobile version*/
-/*SOBRE MI BUTTON*/
-$(document).ready(function() {
-  $('#b-about2').click(function() {
-    $('html').animate(
-      {
-        scrollTop: $('#about').offset().top
-      },
-      1700
-    );
-  });
-});
+/*MOBILE MENU*/
+(function() {
+  "use strict";
+  /**
+   * Easy selector helper function
+   */
+  const select = (el, all = false) => {
+    el = el.trim()
+    if (all) {
+      return [...document.querySelectorAll(el)]
+    } else {
+      return document.querySelector(el)
+    }
+  }
 
-/*CONTACT BUTTON*/
-$(document).ready(function() {
-  $('#b-contact2').click(function() {
-    $('body').animate(
-      {
-        scrollTop: $('#contact').offset().top
-      },
-      1700
-    );
-  });
-});
+  /**
+   * Easy event listener function
+   */
+  const on = (type, el, listener, all = false) => {
+    let selectEl = select(el, all)
+    if (selectEl) {
+      if (all) {
+        selectEl.forEach(e => e.addEventListener(type, listener))
+      } else {
+        selectEl.addEventListener(type, listener)
+      }
+    }
+  }
 
-/*CONTACT_ME BUTTON*/
-$(document).ready(function() {
-  $('#contact_me').click(function() {
-    $('body').animate(
-      {
-        scrollTop: $('#contact').offset().top
-      },
-      1700
-    );
-  });
-});
+  /**
+   * Easy on scroll event listener 
+   */
+  const onscroll = (el, listener) => {
+    el.addEventListener('scroll', listener)
+  }
 
-/*'ABOUT ME' MENU LINK*/
-$(document).ready(function() {
-  $('.About').click(function() {
-    $('body, html').animate(
-      {
-        scrollTop: $('#about').offset().top
-      },
-      1700
-    );
-  });
-});
+  /**   * Scrolls to an element with header offset*/
+  const scrollto = (el) => {
+    let elementPos = select(el).offsetTop
+    window.scrollTo({
+      top: elementPos,
+      behavior: 'smooth'
+    })
+  }
 
-/*'INTERESTS' MENU LINK*/
-$(document).ready(function() {
-  $('.Interests').click(function() {
-    $('body,html').animate(
-      {
-        scrollTop: $('#interests').offset().top
-      },
-      1700
-    );
-  });
-});
+  /**
+   * Mobile nav -- Muestra y esconde menú
+   */
+  on('click', '.mobile-nav-toggle', function(e) {
+    select('body').classList.toggle('mobile-nav-active')
+    this.classList.toggle('bi-list')
+    this.classList.toggle('bi-x')
+  })
 
-/*'TODAY' MENU LINK*/
-$(document).ready(function() {
-  $('.Today').click(function() {
-    $('body, html').animate(
-      {
-        scrollTop: $('#today').offset().top
-      },
-      1700
-    );
-  });
-});
+  /**
+   * Esconde el menú luego de hacer clic a una opción
+   */
+  on('click', '.scrollto', function(e) {
+    if (select(this.hash)) {
+      e.preventDefault()
 
-/*'EVENTS' MENU LINK*/
-$(document).ready(function() {
-  $('.Events').click(function() {
-    $('body, html').animate(
-      {
-        scrollTop: $('#events').offset().top
-      },
-      1700
-    );
-  });
-});
+      let body = select('body')
+      if (body.classList.contains('mobile-nav-active')) {
+        body.classList.remove('mobile-nav-active')
+        let navbarToggle = select('.mobile-nav-toggle')
+        navbarToggle.classList.toggle('bi-list')
+        navbarToggle.classList.toggle('bi-x')
+      }
+      scrollto(this.hash)
+    }
+  }, true)
 
-/*'CONTACTO' MENU LINK*/
-$(document).ready(function() {
-  $('.Contact').click(function() {
-    $('body,html').animate(
-      {
-        scrollTop: $('#contact').offset().top
-      },
-      1700
-    );
-  });
-});
+})()
 
 
-
-/*VALIDA EL NÚMERO DE TELÉFONO*/
-function justNumbers(e) {
-  var keynum = window.event ? window.event.keyCode : e.which;
-  if (keynum == 8 || keynum == 46) return true;
-
-  return /\d/.test(String.fromCharCode(keynum));
-}
-
-/*THIS SHOWS AND HIDES MENU ITEMS*/
-$(document).ready(function() {
-  $('.hamburguer-btn .fa-times').hide();
-
-  $('.hamburguer-btn .fa-bars').click(function() {
-    $(this).hide();
-    $('.hamburguer-btn .fa-times').show();
-    $('.mobile_menu1 a li').addClass('active');
-  });
-
-  /*cierra automaticamente menu luego de hacer clic en un enlace*/
-  $('.mobile_menu1').click(function() {
-    $(this).hide();
-    $('.hamburguer-btn .fa-bars').show();
-    $('.hamburguer-btn .fa-times').hide();
-  });
-
-  $('.hamburguer-btn .fa-bars').click(function() {
-    $(this).hide();
-    $('.hamburguer-btn .fa-times').show();
-    $('.mobile_menu1').show();
-  });
-
-  $('.hamburguer-btn .fa-times').click(function() {
-    $(this).hide();
-    $('.hamburguer-btn .fa-bars').show();
-    $('.mobile_menu1').hide();
-  });
+(window).scroll(function(){
+  if ((this).scrollTop() > 5) {
+     ('.d-xl-none').addClass('dark-bar');
+  } else {
+     ('.d-xl-none').removeClass('dark-bar');
+  }
 });

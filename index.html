@@ -24,7 +24,8 @@
 
  	<!-- Pinterest -->
 	<meta name="p:domain_verify" content="8d5eb297882ef7641dbb1ad12401b4cb"/>
-
+        <!--FAVICON
+        <link rel="icon" href="favicon.ico">-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,6 +33,7 @@
 
         <!--CSS FOLDER-->
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/media-query.css">
         <!--BOOTRAP CSS-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
@@ -57,10 +59,13 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <!--BACK TO TOP BUTTON-->
-    <a href="#" class="scrollTop"><i class="fas fa-chevron-up icons"></i></a>
-    
+    <a href="#" class="scrollTop"><i class="fas fa-arrow-up icons"></i></a>
+    <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle bar d-xl-none"><i class="fas fa-bars"></i></button>
+  <button type="button" class="mobile-nav-toggle bar d-xl-none"><i class="fas fa-times"></i> </button>
 <!--NAVBAR-->
 <header id="header" class="d-flex flex-colum justify-content-center">
+   
     <nav id="navbar" class="navbar nav-menu ">
         <ul>
             <li>
@@ -165,8 +170,8 @@
         <div id="bio" class="container perfil">
             <div class="row" data-aos="fade-up">
                 <h1>¿Qué me interesa?</h1>
-                    <div class="col">
-                        <img  class="foto" src="img/mi foto.png" alt="Aurelio Denegri Chugnas">
+                    <div class="col foto">
+                        <img  class="d-block" src="img/mi foto.png" alt="Aurelio Denegri Chugnas">
                     </div>
                     <div class="descripcion text-center col">
                         <h2>Conóceme</h2>
@@ -185,8 +190,8 @@
     <section class="sector-w">
         <div id="events"class="container">
             <div class="row" data-aos="fade-up">
-                <h1>Me gusta asistir a Eventos como...</h1>
-                <div class="col">
+                <h1>Participo en Eventos como...</h1>
+                <div class="col ">
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -210,63 +215,63 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slider 2.jpg" class="d-block w-100" alt="...">
+                                <img src="img/slider 2.jpg" class="d-block" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Hackathon BCRP 2018</h5>
                                     <p>Taller de introducción a UX junto a Oliver Jauregui y Makerlab Perú.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slider 3.jpg" class="d-block w-100" alt="...">
+                                <img src="img/slider 3.jpg" class="d-block" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Hackathon AngelHack 2018</h5>
                                     <p>Participación por equipos en el AngelHack Lima.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slider 4.jpg" class="d-block w-100" alt="...">
+                                <img src="img/slider 4.jpg" class="d-block " alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Clausura Talleres de Certificación<br> Google Ads UPC 2018-2</h5>
                                     <p>Ceremonia de cierre de talleres y felicitaciones a alumnos aprobados.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slider 5.jpg" class="d-block w-100" alt="...">
+                                <img src="img/slider 5.jpg" class="d-block " alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Makerlab Perú</h5>
                                     <p>Sesión de desarrollo con la comunidad maker en la PUCP.</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slider 6.jpg" class="d-block w-100" alt="...">
+                                <img src="img/slider 6.jpg" class="d-block " alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Google Grow Perú 2019</h5>
                                     <p>Evento de Capacitación de Google para las principales <br> agencias de Marketing Digital</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slider 7.jpg" class="d-block w-100 tall" alt="...">
+                                <img src="img/slider 7.jpg" class="d-block tall" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Visita a Google Perú 2019</h5>
                                     <p>Visita a las Oficinas de Google <br>con los alumnos y Tutores de UPC</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slider 8.jpg" class="d-block w-100" alt="...">
+                                <img src="img/slider 8.jpg" class="d-block " alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Taller Marketing Digital</h5>
                                     <p>Taller Práctico de Marketing Digital a Alumnos de la UPC</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slider 9.jpg" class="d-block w-100 tall" alt="...">
+                                <img src="img/slider 9.jpg" class="d-block tall" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Youtube Brandcast 2019</h5>
                                     <p>Una genial experiencia dónde aprendí más <br>sobre el uso de Youtube en la Estrategia Digital</p>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="img/slider 10.jpg" class="d-block w-100 tall" alt="...">
+                                <img src="img/slider 10.jpg" class="d-block tall" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Hackathon ENEL 2019</h5>
                                     <p>Taller de UX y Scope Canvas</p>
@@ -274,11 +279,11 @@
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                        <span class="carousel-control-prev-icon chevy" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                        <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                        <span class="carousel-control-next-icon chevy" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                         </button>
                     </div>
@@ -330,8 +335,8 @@
     </section>-->
 
     <!-- JOBS-->
-    <section class="sector-w">
-        <div id="jobs"class="container jobs" data-aos="fade-up">
+    <section id="jobs" class="sector-w">
+        <div class="container jobs" data-aos="fade-up">
             <div class="row ">
                 <h1>¿A qué me dedico?</h1>
                 <div class="col">
@@ -513,7 +518,7 @@
                     scroll.classList.toggle("active", window.scrollY >200)
             })
             </script>
-
+            
             <!--ANIMATE ON SCREEN JS-->
             <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
             <script>
@@ -523,7 +528,6 @@
                   duration: 1000,
               });
             </script>
-
           
 </body>
 
@@ -545,9 +549,7 @@
                 
                 });
             </script>
-        <!--CAPTCHA-->
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
+        
         <!--BOOSTRAP JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
