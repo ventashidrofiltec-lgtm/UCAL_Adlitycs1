@@ -1,6 +1,12 @@
-/*MOBILE MENU*/
+/**
+* Template Name: MyResume - v4.3.0
+* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 (function() {
   "use strict";
+
   /**
    * Easy selector helper function
    */
@@ -34,7 +40,28 @@
     el.addEventListener('scroll', listener)
   }
 
-  /**   * Scrolls to an element with header offset*/
+  /**
+   * Navbar links active state on scroll
+   */
+  let navbarlinks = select('#navbar .scrollto', true)
+  const navbarlinksActive = () => {
+    let position = window.scrollY + 200
+    navbarlinks.forEach(navbarlink => {
+      if (!navbarlink.hash) return
+      let section = select(navbarlink.hash)
+      if (!section) return
+      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
+        navbarlink.classList.add('active')
+      } else {
+        navbarlink.classList.remove('active')
+      }
+    })
+  }
+
+
+  /**
+   * Scrolls to an element with header offset
+   */
   const scrollto = (el) => {
     let elementPos = select(el).offsetTop
     window.scrollTo({
@@ -43,8 +70,9 @@
     })
   }
 
+
   /**
-   * Mobile nav -- Muestra y esconde menú
+   * Mobile nav toggle
    */
   on('click', '.mobile-nav-toggle', function(e) {
     select('body').classList.toggle('mobile-nav-active')
@@ -52,31 +80,16 @@
     this.classList.toggle('bi-x')
   })
 
+
   /**
-   * Esconde el menú luego de hacer clic a una opción
+   * Scroll with ofset on page load with hash links in the url
    */
-  on('click', '.scrollto', function(e) {
-    if (select(this.hash)) {
-      e.preventDefault()
-
-      let body = select('body')
-      if (body.classList.contains('mobile-nav-active')) {
-        body.classList.remove('mobile-nav-active')
-        let navbarToggle = select('.mobile-nav-toggle')
-        navbarToggle.classList.toggle('bi-list')
-        navbarToggle.classList.toggle('bi-x')
+  window.addEventListener('load', () => {
+    if (window.location.hash) {
+      if (select(window.location.hash)) {
+        scrollto(window.location.hash)
       }
-      scrollto(this.hash)
     }
-  }, true)
+  });
 
-})()
-
-
-(window).scroll(function(){
-  if ((this).scrollTop() > 5) {
-     ('.d-xl-none').addClass('dark-bar');
-  } else {
-     ('.d-xl-none').removeClass('dark-bar');
-  }
-});
+})();
