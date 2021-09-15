@@ -2,10 +2,68 @@
  
 /*<<<<<<<<<up to 375px>>>>>>>>>>>>>*/
 @media screen and (max-width: 375px) {
+#bar{
+    display: block;
+}
+
+/*COVER*/
+.cover-content h1{
+    font-size: 2rem;
+}
 
 
+/*EVENTS*/
+.carousel-inner{
+    height: auto;
+    padding: auto;
+    align-content: center;
+  }
+  
+    .carousel-item img{
+      max-width: 100%;
+      margin: auto;
+      filter: brightness(0.85);
+    }
+  
+    .carousel-item img.tall{
+        max-width: 80%;
+     }
+  
+     .carousel-caption p{
+       padding: 0 2rem;
+     }
+  
+     .carousel-control-next .chevy, .carousel-control-prev .chevy{
+       background-color: transparent;
+     }
 
+/*JOBS*/
+.card{
+    width: 18rem;
+    margin-bottom: 1.5rem ;
+  }
+  
+    .card img {
+      max-width: 16rem;
+      padding:0.25rem 1.5rem;
+      margin: auto;
+      }
+  
+      .card-body{
+          margin-top: 0;
+          padding-top: 0;
+      }
+  
+      .centrado{
+          margin-top: 1.5rem;
+          font-size: 0.75rem;
+          font-weight: bold;
+      }
 
+/*BACK TO TOP BUTTON*/
+.scrollTop{
+    bottom: 70px;
+}
 }
 
 /*<<<<<<<<<376px to 414px>>>>>>>>>>>>>*/
