@@ -10,14 +10,18 @@
   height: 45rem;
     }
   
-  #events.sector-w{
-  min-height: 45rem;
-        }
+    #eventos.sector-w{
+      max-height: 23rem;
+            }
   
   #jobs.sector-w{
   height: 100rem;
   margin-top: 5rem;
         }
+
+    #contact.sector-w{
+      height: 40rem;
+            }
 
 /*COVER*/
 .cover-content h1{
@@ -86,16 +90,21 @@
 }
 
 #about.sector-w{
-  height: 45rem;
+  height: 50rem;
     }
   
-  #events.sector-w{
-  min-height: 45rem;
-        }
+    #eventos.sector-w{
+      height: 30rem;
+            }
+  
+
+    #contact.sector-w{
+      height: 40rem;
+            }
   
   #jobs.sector-w{
   height: 100rem;
-  margin-top: 5rem;
+
         }
 /*COVER*/
 .cover-content h1{
@@ -163,13 +172,25 @@
     display: block;
 }
 
+
+#bio h1{
+  margin-top: 7rem;
+}
+
+#eventos.sector-w{
+  height: 30rem;
+        }
+
+
+#contact.sector-w{
+  height: 40rem;
+        }
+
 #about.sector-w{
   height: 45rem;
     }
   
-  #events.sector-w{
-  min-height: 45rem;
-        }
+
   
   #jobs.sector-w{
   height: 100rem;
@@ -244,14 +265,22 @@
 #about.sector-w{
   height: 45rem;
     }
-  
-  #events.sector-w{
-  min-height: 45rem;
-        }
+    #bio h1{
+      margin-top: 5rem;
+    }
+    
+    #eventos.sector-w{
+      height: 30rem;
+            }
+    
+    
+    #contact.sector-w{
+      height: 40rem;
+            }
   
   #jobs.sector-w{
   height: 100rem;
-  margin-top: 5rem;
+  
         }
 /*COVER*/
 .cover-content h1{
@@ -321,11 +350,22 @@
 }
 
 #about.sector-w{
-  height: 37rem;
+  height: 43rem;
     }
-  
+    #bio h1{
+      margin-top: 7rem;
+    }
+    
+    #eventos.sector-w{
+      height: 30rem;
+            }
+    
+    #contact.sector-w{
+      height: 40rem;
+            }
+    
   #events.sector-w{
-  min-height: 45rem;
+ height: 40rem;
         }
   
   #jobs.sector-w{
@@ -348,13 +388,13 @@
   }
   
     .carousel-item img{
-      max-width: 100%;
+      max-width: 80%;
       margin: auto;
       filter: brightness(0.85);
     }
   
     .carousel-item img.tall{
-        max-width: 80%;
+        max-width: 60%;
      }
   
      .carousel-caption p{
@@ -401,16 +441,23 @@
 }
 
 #about.sector-w{
-  height: 37rem;
+  height: 40rem;
     }
-  
-  #events.sector-w{
-  min-height: 45rem;
-        }
+    #bio h1{
+      margin-top: 7rem;
+    }
+    
+    #eventos.sector-w{
+      height: 40rem;
+            }
+    
+    #contact.sector-w{
+      height: 45rem;
+            }
   
   #jobs.sector-w{
-  height: 70rem;
-  margin-top: 5rem;
+  height: 72rem;
+  
         }
 
 /*COVER*/
@@ -478,20 +525,25 @@
   #bar{
     display: block;
 }
-
 #about.sector-w{
-height: 37rem;
-  }
-
-#events.sector-w{
-min-height: 45rem;
-      }
-
-#jobs.sector-w{
-height: 70rem;
-margin-top: 5rem;
-      }
-
+  height: 40rem;
+    }
+    #bio h1{
+      margin-top: 7rem;
+    }
+    
+    #eventos.sector-w{
+      height: 40rem;
+            }
+    
+    #contact.sector-w{
+      height: 45rem;
+            }
+  
+  #jobs.sector-w{
+  height: 72rem;
+  
+        }
 /*COVER*/
 .cover-content h1{
     font-size: 2rem;
@@ -558,19 +610,25 @@ margin-top: 5rem;
     display: block;
 }
 
-
 #about.sector-w{
-  height: 37rem;
+  height: 45rem;
     }
-  
-  #events.sector-w{
- min-height: 35rem;
-        }
+    #bio h1{
+      margin-top: 7rem;
+    }
+    
+    #eventos.sector-w{
+      height: 45rem;
+            }
+    
+    #contact.sector-w{
+      height: 42rem;
+            }
   
   #jobs.sector-w{
-  height: 70rem;
-    margin-top: 5rem;
-  }
+  height: 75rem;
+  
+        }
 
 /*COVER*/
 .cover-content h1{
@@ -718,11 +776,25 @@ height: 100vh;
 #contact.sector-w{
   max-height: 45rem;
     }
+
 /*COVER*/
-.cover-content h1{
-    font-size: 2rem;
+.cover h1{
+  font-size: 3rem;
 }
 
+.cover h3{
+font-size: 2rem;
+}
+
+
+.cover span{
+font-size: 2rem;
+}
+
+/*About*/
+.descripcion{
+font-size: 1.35rem;
+}
 
 /*EVENTS*/
 .carousel-inner{
@@ -790,11 +862,28 @@ height: 100vh;
 #contact.sector-w{
   max-height: 45rem;
     }
+
+.sector-w h1{
+      font-size: 3rem;
+    }
 /*COVER*/
-.cover-content h1{
-    font-size: 2rem;
+ .cover h1{
+    font-size: 3.5rem;
 }
 
+.cover h3{
+  font-size: 1.8rem;
+}
+
+
+.cover span{
+  font-size: 1.8rem;
+}
+
+/*About*/
+.descripcion{
+  font-size: 1.35rem;
+}
 
 /*EVENTS*/
 .carousel-inner{
@@ -824,12 +913,14 @@ height: 100vh;
 
 /*JOBS*/
 .card{
-    width: 18rem;
+    width: 22rem;
     margin-bottom: 1.5rem ;
+    font-size: 1.2rem;
+    height: 30rem;
   }
   
     .card img {
-      max-width: 16rem;
+      max-width: 14rem;
       padding:0.25rem 1.5rem;
       margin: auto;
       }
@@ -841,7 +932,7 @@ height: 100vh;
   
       .centrado{
           margin-top: 1.5rem;
-          font-size: 0.75rem;
+          font-size: 1rem;
           font-weight: bold;
       }
 
