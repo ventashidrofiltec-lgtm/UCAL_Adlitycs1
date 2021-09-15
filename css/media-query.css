@@ -6,6 +6,19 @@
     display: block;
 }
 
+#about.sector-w{
+  height: 45rem;
+    }
+  
+  #events.sector-w{
+  min-height: 45rem;
+        }
+  
+  #jobs.sector-w{
+  height: 100rem;
+  margin-top: 5rem;
+        }
+
 /*COVER*/
 .cover-content h1{
     font-size: 2rem;
@@ -68,32 +81,773 @@
 
 /*<<<<<<<<<376px to 414px>>>>>>>>>>>>>*/
 @media screen and (min-width: 376px) and (max-width: 414px) {
+  #bar{
+    display: block;
+}
+
+#about.sector-w{
+  height: 45rem;
+    }
+  
+  #events.sector-w{
+  min-height: 45rem;
+        }
+  
+  #jobs.sector-w{
+  height: 100rem;
+  margin-top: 5rem;
+        }
+/*COVER*/
+.cover-content h1{
+    font-size: 2rem;
+}
+
+
+/*EVENTS*/
+.carousel-inner{
+    height: auto;
+    padding: auto;
+    align-content: center;
+  }
+  
+    .carousel-item img{
+      max-width: 100%;
+      margin: auto;
+      filter: brightness(0.85);
+    }
+  
+    .carousel-item img.tall{
+        max-width: 80%;
+     }
+  
+     .carousel-caption p{
+       padding: 0 2rem;
+     }
+  
+     .carousel-control-next .chevy, .carousel-control-prev .chevy{
+       background-color: transparent;
+     }
+
+/*JOBS*/
+.card{
+    width: 18rem;
+    margin-bottom: 1.5rem ;
+  }
+  
+    .card img {
+      max-width: 16rem;
+      padding:0.25rem 1.5rem;
+      margin: auto;
+      }
+  
+      .card-body{
+          margin-top: 0;
+          padding-top: 0;
+      }
+  
+      .centrado{
+          margin-top: 1.5rem;
+          font-size: 0.75rem;
+          font-weight: bold;
+      }
+
+/*BACK TO TOP BUTTON*/
+.scrollTop{
+    bottom: 70px;
+}
 }
  
 /*<<<<<<<<<415px-478px>>>>>>>>>*/
 @media screen and (min-width: 415px) and (max-width: 478px) {
+  #bar{
+    display: block;
+}
+
+#about.sector-w{
+  height: 45rem;
+    }
+  
+  #events.sector-w{
+  min-height: 45rem;
+        }
+  
+  #jobs.sector-w{
+  height: 100rem;
+  margin-top: 5rem;
+        }
+
+/*COVER*/
+.cover-content h1{
+    font-size: 2.5rem;
+}
+
+
+/*EVENTS*/
+.carousel-inner{
+    height: auto;
+    padding: auto;
+    align-content: center;
+  }
+  
+    .carousel-item img{
+      max-width: 100%;
+      margin: auto;
+      filter: brightness(0.85);
+    }
+  
+    .carousel-item img.tall{
+        max-width: 80%;
+     }
+  
+     .carousel-caption p{
+       padding: 0 2rem;
+     }
+  
+     .carousel-control-next .chevy, .carousel-control-prev .chevy{
+       background-color: transparent;
+     }
+
+/*JOBS*/
+.card{
+    width: 18rem;
+    margin-bottom: 1.5rem ;
+  }
+  
+    .card img {
+      max-width: 16rem;
+      padding:0.25rem 1.5rem;
+      margin: auto;
+      }
+  
+      .card-body{
+          margin-top: 0;
+          padding-top: 0;
+      }
+  
+      .centrado{
+          margin-top: 1.5rem;
+          font-size: 0.75rem;
+          font-weight: bold;
+      }
+
+/*BACK TO TOP BUTTON*/
+.scrollTop{
+    bottom: 60px;
+}
 }
  
 /*<<<<<<<<<479px-780px>>>>>>>>>*/
 @media screen and (min-width: 479px) and (max-width: 780px) {
+  #bar{
+    display: block;
+}
+#about.sector-w{
+  height: 45rem;
+    }
+  
+  #events.sector-w{
+  min-height: 45rem;
+        }
+  
+  #jobs.sector-w{
+  height: 100rem;
+  margin-top: 5rem;
+        }
+/*COVER*/
+.cover-content h1{
+    font-size: 2rem;
+}
+
+
+/*EVENTS*/
+.carousel-inner{
+    height: auto;
+    padding: auto;
+    align-content: center;
+  }
+  
+    .carousel-item img{
+      max-width: 100%;
+      margin: auto;
+      filter: brightness(0.85);
+    }
+  
+    .carousel-item img.tall{
+        max-width: 80%;
+     }
+  
+     .carousel-caption p{
+       padding: 0 2rem;
+     }
+  
+     .carousel-control-next .chevy, .carousel-control-prev .chevy{
+       background-color: transparent;
+     }
+
+/*JOBS*/
+.card{
+    width: 18rem;
+    margin-bottom: 1.5rem ;
+  }
+  
+    .card img {
+      max-width: 16rem;
+      padding:0.25rem 1.5rem;
+      margin: auto;
+      }
+  
+      .card-body{
+          margin-top: 0;
+          padding-top: 0;
+      }
+  
+      .centrado{
+          margin-top: 1.5rem;
+          font-size: 0.75rem;
+          font-weight: bold;
+      }
+
+/*BACK TO TOP BUTTON*/
+.scrollTop{
+    bottom: 70px;
+}
 }
  
-/*<<<<<<<<<781px-1000>>>>>>>>>*/
+/*<<<<<<<<<781px-900>>>>>>>>>*/
 @media screen and (min-width: 781px) and (max-width: 900px) {
+
+  #bar{
+    display: block;
+}
+
+#about.sector-w{
+  height: 37rem;
+    }
+  
+  #events.sector-w{
+  min-height: 45rem;
+        }
+  
+  #jobs.sector-w{
+  height: 70rem;
+  margin-top: 5rem;
+        }
+
+
+/*COVER*/
+.cover-content h1{
+    font-size: 2.5rem;
+}
+
+
+/*EVENTS*/
+.carousel-inner{
+    height: auto;
+    padding: auto;
+    align-content: center;
+  }
+  
+    .carousel-item img{
+      max-width: 100%;
+      margin: auto;
+      filter: brightness(0.85);
+    }
+  
+    .carousel-item img.tall{
+        max-width: 80%;
+     }
+  
+     .carousel-caption p{
+       padding: 0 2rem;
+     }
+  
+     .carousel-control-next .chevy, .carousel-control-prev .chevy{
+       background-color: transparent;
+     }
+
+/*JOBS*/
+.card{
+    width: 18rem;
+    margin-bottom: 1.7rem ;
+  }
+  
+    .card img {
+      max-width: 16rem;
+      padding:0.25rem 1.5rem;
+      margin: auto;
+      }
+  
+      .card-body{
+          margin-top: 0;
+          padding-top: 0;
+      }
+  
+      .centrado{
+          margin-top: 1.5rem;
+          font-size: 0.75rem;
+          font-weight: bold;
+      }
+
+/*BACK TO TOP BUTTON*/
+.scrollTop{
+    bottom: 70px;
+}
 }
  
 /*<<<<<<<<<901px - 950px>>>>>>>>>*/
 @media screen and (min-width: 901px) and (max-width: 950px) {
+  #bar{
+    display: block;
+}
+
+#about.sector-w{
+  height: 37rem;
+    }
+  
+  #events.sector-w{
+  min-height: 45rem;
+        }
+  
+  #jobs.sector-w{
+  height: 70rem;
+  margin-top: 5rem;
+        }
+
+/*COVER*/
+.cover-content h1{
+    font-size: 2rem;
+}
+
+
+/*EVENTS*/
+.carousel-inner{
+    height: auto;
+    padding: auto;
+    align-content: center;
+  }
+  
+    .carousel-item img{
+      max-width: 100%;
+      margin: auto;
+      filter: brightness(0.85);
+    }
+  
+    .carousel-item img.tall{
+        max-width: 80%;
+     }
+  
+     .carousel-caption p{
+       padding: 0 2rem;
+     }
+  
+     .carousel-control-next .chevy, .carousel-control-prev .chevy{
+       background-color: transparent;
+     }
+
+/*JOBS*/
+.card{
+    width: 18rem;
+    margin-bottom: 1.5rem ;
+  }
+  
+    .card img {
+      max-width: 16rem;
+      padding:0.25rem 1.5rem;
+      margin: auto;
+      }
+  
+      .card-body{
+          margin-top: 0;
+          padding-top: 0;
+      }
+  
+      .centrado{
+          margin-top: 1.5rem;
+          font-size: 0.75rem;
+          font-weight: bold;
+      }
+
+/*BACK TO TOP BUTTON*/
+.scrollTop{
+    bottom: 70px;
+}
 }
  
 /*<<<<<<<<<951px - 985px>>>>>>>>>*/
 @media screen and (min-width: 951px) and (max-width: 985px) {
+  #bar{
+    display: block;
+}
+
+#about.sector-w{
+height: 37rem;
+  }
+
+#events.sector-w{
+min-height: 45rem;
+      }
+
+#jobs.sector-w{
+height: 70rem;
+margin-top: 5rem;
+      }
+
+/*COVER*/
+.cover-content h1{
+    font-size: 2rem;
+}
+
+
+/*EVENTS*/
+.carousel-inner{
+    height: auto;
+    padding: auto;
+    align-content: center;
+  }
+  
+    .carousel-item img{
+      max-width: 100%;
+      margin: auto;
+      filter: brightness(0.85);
+    }
+  
+    .carousel-item img.tall{
+        max-width: 80%;
+     }
+  
+     .carousel-caption p{
+       padding: 0 2rem;
+     }
+  
+     .carousel-control-next .chevy, .carousel-control-prev .chevy{
+       background-color: transparent;
+     }
+
+/*JOBS*/
+.card{
+    width: 18rem;
+    margin-bottom: 1.5rem ;
+  }
+  
+    .card img {
+      max-width: 16rem;
+      padding:0.25rem 1.5rem;
+      margin: auto;
+      }
+  
+      .card-body{
+          margin-top: 0;
+          padding-top: 0;
+      }
+  
+      .centrado{
+          margin-top: 1.5rem;
+          font-size: 0.75rem;
+          font-weight: bold;
+      }
+
+/*BACK TO TOP BUTTON*/
+.scrollTop{
+    bottom: 70px;
+}
 }
  
-/*<<<<<<<<<986px - 1290px>>>>>>>>>*/
-@media screen and (min-width: 986px) and (max-width: 1290px) {
+/*<<<<<<<<<986px - 992px>>>>>>>>>*/
+@media screen and (min-width: 986px) and (max-width: 992px) {
+  #bar{
+    display: block;
+}
+
+
+#about.sector-w{
+  height: 37rem;
+    }
+  
+  #events.sector-w{
+ min-height: 35rem;
+        }
+  
+  #jobs.sector-w{
+  height: 70rem;
+    margin-top: 5rem;
+  }
+
+/*COVER*/
+.cover-content h1{
+    font-size: 2rem;
+}
+
+
+/*EVENTS*/
+.carousel-inner{
+    height: auto;
+    padding: auto;
+    align-content: center;
+  }
+  
+    .carousel-item img{
+      max-width: 100%;
+      margin: auto;
+      filter: brightness(0.85);
+    }
+  
+    .carousel-item img.tall{
+        max-width: 80%;
+     }
+  
+     .carousel-caption p{
+       padding: 0 2rem;
+     }
+  
+     .carousel-control-next .chevy, .carousel-control-prev .chevy{
+       background-color: transparent;
+     }
+
+/*JOBS*/
+.card{
+    width: 18rem;
+    margin-bottom: 1.5rem ;
+  }
+  
+    .card img {
+      max-width: 16rem;
+      padding:0.25rem 1.5rem;
+      margin: auto;
+      }
+  
+      .card-body{
+          margin-top: 0;
+          padding-top: 0;
+      }
+  
+      .centrado{
+          margin-top: 1.5rem;
+          font-size: 0.75rem;
+          font-weight: bold;
+      }
+
+/*BACK TO TOP BUTTON*/
+.scrollTop{
+    bottom: 70px;
+}
+}
+
+/*<<<<<<<<<993px - 1290px>>>>>>>>>*/
+@media screen and (min-width: 993px) and (max-width: 1290px) {
+  #bar{
+    display: none;
+}
+.sector-w{
+height: 100vh;
+  }
+
+#about.sector-w{
+  max-height: 42rem;
+    }
+
+#contact.sector-w{
+  max-height: 45rem;
+    }
+/*COVER*/
+.cover-content h1{
+    font-size: 2rem;
+}
+
+
+/*EVENTS*/
+.carousel-inner{
+    height: auto;
+    padding: auto;
+    align-content: center;
+  }
+  
+    .carousel-item img{
+      max-width: 80%;
+      margin: auto;
+      filter: brightness(0.85);
+      
+    }
+  
+    .carousel-item img.tall{
+        max-width: 60%;
+     }
+  
+     .carousel-caption p{
+       padding: 0 2rem;
+     }
+  
+     .carousel-control-next .chevy, .carousel-control-prev .chevy{
+       background-color: transparent;
+     }
+
+/*JOBS*/
+.card{
+    width: 18rem;
+    margin-bottom: 1.5rem ;
+  }
+  
+    .card img {
+      max-width: 16rem;
+      padding:0.25rem 1.5rem;
+      margin: auto;
+      }
+  
+      .card-body{
+          margin-top: 0;
+          padding-top: 0;
+      }
+  
+      .centrado{
+          margin-top: 1.5rem;
+          font-size: 0.75rem;
+          font-weight: bold;
+      }
+
+/*BACK TO TOP BUTTON*/
+.scrollTop{
+    bottom: 70px;
+}
 }
  
 /*<<<<<<<<<1290px - 1366px>>>>>>>>>*/
 @media screen and (min-width: 1290px) and (max-width: 1366px) {
+  #bar{
+    display: none;
+}
+
+#contact.sector-w{
+  max-height: 45rem;
+    }
+/*COVER*/
+.cover-content h1{
+    font-size: 2rem;
+}
+
+
+/*EVENTS*/
+.carousel-inner{
+    height: auto;
+    padding: auto;
+    align-content: center;
+  }
+  
+    .carousel-item img{
+      max-width: 80%;
+      margin: auto;
+      filter: brightness(0.85);
+      
+    }
+  
+    .carousel-item img.tall{
+        max-width: 60%;
+     }
+  
+     .carousel-caption p{
+       padding: 0 2rem;
+     }
+  
+     .carousel-control-next .chevy, .carousel-control-prev .chevy{
+       background-color: transparent;
+     }
+
+/*JOBS*/
+.card{
+    width: 18rem;
+    margin-bottom: 1.5rem ;
+  }
+  
+    .card img {
+      max-width: 16rem;
+      padding:0.25rem 1.5rem;
+      margin: auto;
+      }
+  
+      .card-body{
+          margin-top: 0;
+          padding-top: 0;
+      }
+  
+      .centrado{
+          margin-top: 1.5rem;
+          font-size: 0.75rem;
+          font-weight: bold;
+      }
+
+/*BACK TO TOP BUTTON*/
+.scrollTop{
+    bottom: 70px;
+}
+
+}
+
+
+/*<<<<<<<<< 1367 or more >>>>>>>>>*/
+@media screen and (min-width: 1367px) {
+  #bar{
+    display: none;
+}
+
+#contact.sector-w{
+  max-height: 45rem;
+    }
+/*COVER*/
+.cover-content h1{
+    font-size: 2rem;
+}
+
+
+/*EVENTS*/
+.carousel-inner{
+    height: auto;
+    padding: auto;
+    align-content: center;
+  }
+  
+    .carousel-item img{
+      max-width: 80%;
+      margin: auto;
+      filter: brightness(0.85);
+      
+    }
+  
+    .carousel-item img.tall{
+        max-width: 60%;
+     }
+  
+     .carousel-caption p{
+       padding: 0 2rem;
+     }
+  
+     .carousel-control-next .chevy, .carousel-control-prev .chevy{
+       background-color: transparent;
+     }
+
+/*JOBS*/
+.card{
+    width: 18rem;
+    margin-bottom: 1.5rem ;
+  }
+  
+    .card img {
+      max-width: 16rem;
+      padding:0.25rem 1.5rem;
+      margin: auto;
+      }
+  
+      .card-body{
+          margin-top: 0;
+          padding-top: 0;
+      }
+  
+      .centrado{
+          margin-top: 1.5rem;
+          font-size: 0.75rem;
+          font-weight: bold;
+      }
+
+/*BACK TO TOP BUTTON*/
+.scrollTop{
+    bottom: 70px;
+}
+
 }
