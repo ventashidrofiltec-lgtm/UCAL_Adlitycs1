@@ -804,14 +804,14 @@ font-size: 1.35rem;
   }
   
     .carousel-item img{
-      max-width: 80%;
+      max-width: 55%;
       margin: auto;
       filter: brightness(0.85);
       
     }
   
     .carousel-item img.tall{
-        max-width: 60%;
+        max-width: 40%;
      }
   
      .carousel-caption p{
@@ -831,7 +831,7 @@ font-size: 1.35rem;
     .card img {
       max-width: 16rem;
       padding:0.25rem 1.5rem;
-      margin: auto;
+      margin: 1rem;
       }
   
       .card-body{
@@ -922,7 +922,7 @@ font-size: 1.35rem;
     .card img {
       max-width: 14rem;
       padding:0.25rem 1.5rem;
-      margin: auto;
+      margin: 1rem;
       }
   
       .card-body{

@@ -20,7 +20,7 @@ highliter:
   }
 
 body {
-  position: relative
+  position: relative;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;  
     overflow-x: hidden;
@@ -327,6 +327,7 @@ margin-top: 2rem;
     max-width: 16rem;
     padding:0.5rem 2.5rem;
     margin: auto;
+    align-items: center;
     }
 
     .card-body{
