@@ -913,16 +913,16 @@ font-size: 1.35rem;
 
 /*JOBS*/
 .card{
-    width: 22rem;
+    min-width: 22rem!important;
+    height: 95%;
     margin-bottom: 1.5rem ;
     font-size: 1.2rem;
-    height: 30rem;
   }
   
     .card img {
-      max-width: 14rem;
-      padding:0.25rem 1.5rem;
-      margin: 1rem;
+      max-width: 16rem;
+      padding:0.25rem 1rem;
+      margin: 1rem 3rem;
       }
   
       .card-body{
@@ -934,6 +934,10 @@ font-size: 1.35rem;
           margin-top: 1.5rem;
           font-size: 1rem;
           font-weight: bold;
+      }
+
+      .card-text{
+        padding: 1rem;
       }
 
 /*BACK TO TOP BUTTON*/
