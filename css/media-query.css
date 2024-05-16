@@ -55,15 +55,23 @@
      }
 
 /*JOBS*/
+
+.sector-wjobs{
+  margin-top: 8rem;
+}
+
+.sector-wjobs h1{
+  text-align: center;
+}
 .card{
     width: 18rem;
-    margin-bottom: 1.5rem ;
+    margin-bottom: 2rem ;
   }
   
     .card img {
       max-width: 16rem;
       padding:0.25rem 1.5rem;
-      margin: auto;
+      margin-left: 1rem;
       }
   
       .card-body{
@@ -76,6 +84,11 @@
           font-size: 0.75rem;
           font-weight: bold;
       }
+
+/*CONTACTS*/
+#contact.sector-w {
+  margin-top:42rem;
+}
 
 /*BACK TO TOP BUTTON*/
 .scrollTop{
@@ -120,7 +133,7 @@
   }
   
     .carousel-item img{
-      max-width: 100%;
+      max-width: 80%;
       margin: auto;
       filter: brightness(0.85);
     }
@@ -138,6 +151,15 @@
      }
 
 /*JOBS*/
+
+.sector-wjobs{
+  margin-top: auto;
+}
+
+.sector-wjobs h1{
+  text-align: center;
+}
+
 .card{
     width: 18rem;
     margin-bottom: 1.5rem ;
@@ -146,7 +168,7 @@
     .card img {
       max-width: 16rem;
       padding:0.25rem 1.5rem;
-      margin: auto;
+      margin-left: 1rem;
       }
   
       .card-body{
@@ -159,6 +181,11 @@
           font-size: 0.75rem;
           font-weight: bold;
       }
+
+      /*CONTACTS*/
+#contact.sector-w {
+  margin-top:44rem;
+}
 
 /*BACK TO TOP BUTTON*/
 .scrollTop{
@@ -211,7 +238,7 @@
   }
   
     .carousel-item img{
-      max-width: 100%;
+      max-width: 85%;
       margin: auto;
       filter: brightness(0.85);
     }
@@ -229,6 +256,15 @@
      }
 
 /*JOBS*/
+
+.sector-wjobs{
+  margin-top: auto;
+}
+
+.sector-wjobs h1{
+  text-align: center;
+}
+
 .card{
     width: 18rem;
     margin-bottom: 1.5rem ;
@@ -237,7 +273,7 @@
     .card img {
       max-width: 16rem;
       padding:0.25rem 1.5rem;
-      margin: auto;
+      margin-left: 1rem;
       }
   
       .card-body{
@@ -251,6 +287,11 @@
           font-weight: bold;
       }
 
+            /*CONTACTS*/
+#contact.sector-w {
+  margin-top:44rem;
+}
+
 /*BACK TO TOP BUTTON*/
 .scrollTop{
     bottom: 60px;
@@ -258,7 +299,7 @@
 }
  
 /*<<<<<<<<<479px-780px>>>>>>>>>*/
-@media screen and (min-width: 479px) and (max-width: 780px) {
+@media screen and (min-width: 479px) and (max-width: 770px) {
   #bar{
     display: block;
 }
@@ -296,7 +337,7 @@
   }
   
     .carousel-item img{
-      max-width: 100%;
+      max-width: 90%;
       margin: auto;
       filter: brightness(0.85);
     }
@@ -314,6 +355,16 @@
      }
 
 /*JOBS*/
+
+.sector-wjobs{
+  margin-top: 6rem;
+}
+
+.sector-wjobs h1{
+  text-align: center;
+}
+
+
 .card{
     width: 18rem;
     margin-bottom: 1.5rem ;
@@ -322,7 +373,7 @@
     .card img {
       max-width: 16rem;
       padding:0.25rem 1.5rem;
-      margin: auto;
+      margin-left: 1rem;
       }
   
       .card-body{
@@ -336,6 +387,10 @@
           font-weight: bold;
       }
 
+                  /*CONTACTS*/
+#contact.sector-w {
+  margin-top:44rem;
+}
 /*BACK TO TOP BUTTON*/
 .scrollTop{
     bottom: 70px;
@@ -343,7 +398,7 @@
 }
  
 /*<<<<<<<<<781px-900>>>>>>>>>*/
-@media screen and (min-width: 781px) and (max-width: 900px) {
+@media screen and (min-width: 771px) and (max-width: 900px) {
 
   #bar{
     display: block;
@@ -406,6 +461,17 @@
      }
 
 /*JOBS*/
+
+.sector-wjobs{
+  margin-top: 10rem;
+}
+
+.sector-wjobs h1{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+
 .card{
     width: 18rem;
     margin-bottom: 1.7rem ;
@@ -414,7 +480,7 @@
     .card img {
       max-width: 16rem;
       padding:0.25rem 1.5rem;
-      margin: auto;
+      margin-left: 1rem;
       }
   
       .card-body{
@@ -428,6 +494,10 @@
           font-weight: bold;
       }
 
+                        /*CONTACTS*/
+#contact.sector-w {
+  margin-top:auto;
+}
 /*BACK TO TOP BUTTON*/
 .scrollTop{
     bottom: 70px;
@@ -492,6 +562,18 @@
      }
 
 /*JOBS*/
+
+.sector-wjobs{
+  margin-top: 6rem;
+}
+
+.sector-wjobs h1{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+
 .card{
     width: 18rem;
     margin-bottom: 1.5rem ;
@@ -500,7 +582,7 @@
     .card img {
       max-width: 16rem;
       padding:0.25rem 1.5rem;
-      margin: auto;
+      margin-left: 1rem;
       }
   
       .card-body{
@@ -514,6 +596,10 @@
           font-weight: bold;
       }
 
+                              /*CONTACTS*/
+#contact.sector-w {
+  margin-top:auto;
+}
 /*BACK TO TOP BUTTON*/
 .scrollTop{
     bottom: 70px;
@@ -576,6 +662,17 @@
      }
 
 /*JOBS*/
+
+.sector-wjobs{
+  margin-top: 6rem;
+}
+
+.sector-wjobs h1{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
 .card{
     width: 18rem;
     margin-bottom: 1.5rem ;
@@ -584,7 +681,7 @@
     .card img {
       max-width: 16rem;
       padding:0.25rem 1.5rem;
-      margin: auto;
+      margin-left: 1rem;
       }
   
       .card-body{
@@ -598,6 +695,11 @@
           font-weight: bold;
       }
 
+
+  /*CONTACTS*/
+#contact.sector-w {
+  margin-top:auto;
+}
 /*BACK TO TOP BUTTON*/
 .scrollTop{
     bottom: 70px;
@@ -662,6 +764,17 @@
      }
 
 /*JOBS*/
+
+.sector-wjobs{
+  margin-top: 6rem;
+}
+
+.sector-wjobs h1{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
 .card{
     width: 18rem;
     margin-bottom: 1.5rem ;
@@ -670,7 +783,7 @@
     .card img {
       max-width: 16rem;
       padding:0.25rem 1.5rem;
-      margin: auto;
+      margin-left: 1rem;
       }
   
       .card-body{
@@ -684,6 +797,10 @@
           font-weight: bold;
       }
 
+        /*CONTACTS*/
+#contact.sector-w {
+  margin-top:auto;
+}
 /*BACK TO TOP BUTTON*/
 .scrollTop{
     bottom: 70px;
@@ -702,6 +819,8 @@ height: 100vh;
 #about.sector-w{
   max-height: 42rem;
     }
+
+
 
 #contact.sector-w{
   max-height: 45rem;
@@ -739,6 +858,17 @@ height: 100vh;
      }
 
 /*JOBS*/
+
+.sector-wjobs{
+  margin-top: auto;
+}
+
+.sector-wjobs h1{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 3rem;
+}
+
 .card{
     width: 18rem;
     margin-bottom: 1.5rem ;
@@ -747,7 +877,7 @@ height: 100vh;
     .card img {
       max-width: 16rem;
       padding:0.25rem 1.5rem;
-      margin: auto;
+      margin-left: 1rem;
       }
   
       .card-body{
@@ -761,6 +891,10 @@ height: 100vh;
           font-weight: bold;
       }
 
+              /*CONTACTS*/
+#contact.sector-w {
+  margin-top:auto;
+}
 /*BACK TO TOP BUTTON*/
 .scrollTop{
     bottom: 70px;
@@ -823,6 +957,12 @@ font-size: 1.35rem;
      }
 
 /*JOBS*/
+
+.sector-wjobs h1{
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 3rem;
+}
 .card{
     width: 18rem;
     margin-bottom: 1.5rem ;
@@ -844,6 +984,11 @@ font-size: 1.35rem;
           font-size: 0.75rem;
           font-weight: bold;
       }
+
+                    /*CONTACTS*/
+#contact.sector-w {
+  margin-top:auto;
+}
 
 /*BACK TO TOP BUTTON*/
 .scrollTop{
@@ -912,6 +1057,14 @@ font-size: 1.35rem;
      }
 
 /*JOBS*/
+.sector-wjobs{
+  margin-top: 15rem;
+}
+
+.sector-wjobs h1{
+  text-align: center;
+  margin-bottom: 3rem;
+}
 .card{
     min-width: 22rem!important;
     height: 95%;
@@ -939,6 +1092,11 @@ font-size: 1.35rem;
       .card-text{
         padding: 1rem;
       }
+
+                    /*CONTACTS*/
+#contact.sector-w {
+  margin-top:10rem;
+}
 
 /*BACK TO TOP BUTTON*/
 .scrollTop{
