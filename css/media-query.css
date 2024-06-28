@@ -3,24 +3,28 @@
 /*<<<<<<<<<up to 375px>>>>>>>>>>>>>*/
 @media screen and (max-width: 375px) {
 #bar{
-    display: block;
+    display: block; 
 }
 
 #about.sector-w{
-  height: 45rem;
+  min-height: 45rem;
     }
   
     #eventos.sector-w{
       max-height: 23rem;
             }
   
-  #jobs.sector-w{
-  height: 100rem;
-  margin-top: 5rem;
+  #jobs{
+  height: 85rem;
+  margin-top: 7rem;
         }
+  .card{
+    margin-top: 2rem;
+  }
 
-    #contact.sector-w{
+    #contact.sector-wm{
       height: 40rem;
+      margin-top: 250rem;
             }
 
 /*COVER*/
@@ -109,7 +113,13 @@
     #eventos.sector-w{
       height: 30rem;
             }
-  
+            #jobs{
+              height: 85rem;
+              margin-top: 1rem;
+                    }
+              .card{
+                margin-top: 2rem;
+              }
 
     #contact.sector-w{
       height: 40rem;
@@ -219,10 +229,13 @@
   
 
   
-  #jobs.sector-w{
-  height: 100rem;
-  margin-top: 5rem;
-        }
+    #jobs{
+      height: 85rem;
+      margin-top: 1rem;
+            }
+      .card{
+        margin-top: 2rem;
+      }
 
 /*COVER*/
 .cover-content h1{
@@ -309,20 +322,35 @@
     #bio h1{
       margin-top: 5rem;
     }
-    
+
     #eventos.sector-w{
       height: 30rem;
             }
     
-    
+            #about.sector-w{
+              height: 45rem;
+                }
+              
+            
+              
+                #jobs{
+                  height: 85rem;
+                  margin-top: 1rem;
+                        }
+                  .card{
+                    margin-top: 2rem;
+                  }
     #contact.sector-w{
       height: 40rem;
             }
   
-  #jobs.sector-w{
-  height: 100rem;
-  
-        }
+            #jobs{
+              height: 85rem;
+              margin-top: 3rem;
+                    }
+              .card{
+                margin-top: 2rem;
+              }
 /*COVER*/
 .cover-content h1{
     font-size: 2rem;
@@ -410,7 +438,19 @@
     #bio h1{
       margin-top: 7rem;
     }
-    
+      
+        #jobs{
+          height: 78rem;
+          margin-top: 8rem;
+                }
+          .card{
+            margin-top: 2rem;
+           
+          }
+
+          .card-body{
+            min-height: 15rem;
+          }
     #eventos.sector-w{
       height: 30rem;
             }
@@ -530,6 +570,19 @@
   
         }
 
+        #jobs{
+          height: 78rem;
+          margin-top: 8rem;
+                }
+          .card{
+            margin-top: 2rem;
+           
+          }
+
+          .card-body{
+            min-height: 15rem;
+          }
+
 /*COVER*/
 .cover-content h1{
     font-size: 2rem;
@@ -630,6 +683,19 @@
   height: 72rem;
   
         }
+
+        #jobs{
+          height: 78rem;
+          margin-top: 7rem;
+                }
+          .card{
+            margin-top: 2rem;
+           
+          }
+
+          .card-body{
+            min-height: 15rem;
+          }
 /*COVER*/
 .cover-content h1{
     font-size: 2rem;
@@ -731,6 +797,19 @@
   height: 75rem;
   
         }
+
+        #jobs{
+          height: 78rem;
+          margin-top: 2rem;
+                }
+          .card{
+            margin-top: 2rem;
+           
+          }
+
+          .card-body{
+            min-height: 15rem;
+          }
 
 /*COVER*/
 .cover-content h1{
@@ -890,6 +969,18 @@ height: 100vh;
           font-size: 0.75rem;
           font-weight: bold;
       }
+      #jobs{
+        height: 78rem;
+        margin-top:4rem;
+              }
+        .card{
+          margin-top: 1rem;
+         
+        }
+
+        .card-body{
+          min-height: 15rem;
+        }
 
               /*CONTACTS*/
 #contact.sector-w {
@@ -984,6 +1075,19 @@ font-size: 1.35rem;
           font-size: 0.75rem;
           font-weight: bold;
       }
+
+      #jobs{
+        height: 78rem;
+        margin-top: 2rem;
+              }
+        .card{
+          margin-top: 2rem;
+         
+        }
+
+        .card-body{
+          min-height: 15rem;
+        }
 
                     /*CONTACTS*/
 #contact.sector-w {
@@ -1093,6 +1197,18 @@ font-size: 1.35rem;
         padding: 1rem;
       }
 
+      #jobs{
+        height: 78rem;
+        margin-top: 8rem;
+              }
+        .card{
+          margin-top: 2rem;
+         
+        }
+
+        .card-body{
+          min-height: 15rem;
+        }
                     /*CONTACTS*/
 #contact.sector-w {
   margin-top:10rem;
