@@ -1,7 +1,7 @@
 /** PRINCIPALES MEDIDAS MEDIA QUERY**/
- 
+
 /*<<<<<<<<<up to 375px>>>>>>>>>>>>>*/
-@media screen and (max-width: 375px) {
+@media screen and  (max-width: 375px) {
 #bar{
     display: block; 
 }
@@ -15,7 +15,7 @@
             }
   
   #jobs{
-  height: 85rem;
+  height: 95rem;
   margin-top: 7rem;
         }
   .card{
